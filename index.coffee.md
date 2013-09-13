@@ -9,6 +9,7 @@
 
     connect= require 'connect'
 
+
     class ConnectApp extends connect
 
         constructor: () ->
@@ -42,6 +43,7 @@
 ## Extends Express
 
     express= require 'express'
+
 
     class ExpressApp extends express
 
@@ -90,6 +92,7 @@ Extends...
 
         @staticMethod2: () ->
             return @
+
 
     app= new App
 
