@@ -1,4 +1,4 @@
-# Extends Connect/Express Application
+# Extends Connect/Express Application]()
 
     {assert}= require 'chai'
 
@@ -32,8 +32,8 @@
 
     assert.strictEqual app.constructor.version, connect.version, 'constructor should be extended'
 
-    assert.isDefined app.method1, 'method should be defined'
-    assert.isDefined app.constructor.staticMethod1, 'constructor method property should be defined'
+    assert.isDefined app.method1, 'prototype method should be defined'
+    assert.isDefined app.constructor.staticMethod1, 'constructor method should be defined'
 
 
 
@@ -66,8 +66,8 @@
 
     assert.strictEqual app.constructor.application, express.application, 'constructor should be extended'
 
-    assert.isDefined app.method1, 'method should be defined'
-    assert.isDefined app.constructor.staticMethod1, 'constructor method property should be defined'
+    assert.isDefined app.method1, 'prototype method should be defined'
+    assert.isDefined app.constructor.staticMethod1, 'constructor method should be defined'
 
 
 
@@ -98,11 +98,11 @@ Extends...
     assert.instanceOf app, App, 'should be an instance of App'
     assert.instanceOf app, ExpressApp, 'should be an instance of ExpressApp'
 
-    assert.isDefined app.method1, 'method should be defined'
-    assert.isDefined app.method2, 'method should be defined'
+    assert.isDefined app.method1, 'prototype method should be defined'
+    assert.isDefined app.method2, 'prototype method should be defined'
 
-    assert.isDefined app.constructor.staticMethod1, 'constructor method property should be defined'
-    assert.isDefined app.constructor.staticMethod2, 'constructor method property should be defined'
+    assert.isDefined app.constructor.staticMethod1, 'constructor method should be defined'
+    assert.isDefined app.constructor.staticMethod2, 'constructor method should be defined'
 
 And run...
 
