@@ -1,6 +1,6 @@
 {
-  "name": "express-extends-coffeescript-example",
-  "version": "0.0.1",
+  "name": "express-extends-coffeescript-example", "version": "0.0.1",
+  "repository": "https://github.com/tehfreak/express-extends-coffeescript-example",
   "scripts": {
     "start": "coffee index.coffee.md"
   },
