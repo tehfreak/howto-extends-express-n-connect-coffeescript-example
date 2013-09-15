@@ -1,3 +1,3 @@
-# Extends Connect/Express Application
+# How-to Extends Express or Connect Application
 
-[Example.](https://github.com/tehfreak/express-extends-coffeescript-example/blob/master/index.coffee.md)
+[Example.](https://github.com/tehfreak/howto-extends-express-n-connect-coffeescript-example/blob/master/index.coffee.md)

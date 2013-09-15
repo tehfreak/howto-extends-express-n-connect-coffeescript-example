@@ -1,10 +1,8 @@
-# Extends Connect/Express Application]()
+# How-to Extends Express or Connect Application
 
     {assert}= require 'chai'
 
-
-
-
+ 
 ## Extends Connect
 
     connect= require 'connect'
@@ -36,10 +34,7 @@
     assert.isDefined app.method1, 'prototype method should be defined'
     assert.isDefined app.constructor.staticMethod1, 'constructor method should be defined'
 
-
-
-
-
+ 
 ## Extends Express
 
     express= require 'express'
@@ -71,10 +66,7 @@
     assert.isDefined app.method1, 'prototype method should be defined'
     assert.isDefined app.constructor.staticMethod1, 'constructor method should be defined'
 
-
-
-
-
+ 
 ## Moar
 
 Extends...
